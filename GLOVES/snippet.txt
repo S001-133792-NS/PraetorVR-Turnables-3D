@@ -1,0 +1,22 @@
+<model-viewer src="GAUNTLET_CONCE3PT_render.gltf" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="2" camera-orbit="82.9deg 43.03deg 7.805m" field-of-view="30deg" auto-rotate>
+    <button class="Hotspot" slot="hotspot-2" data-position="0.9690046822887999m -0.2919091648374268m -1.0484402224218532m" data-normal="0.1154169268722369m 0.8585003357953456m -0.4996559880864511m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Custom PCB</div>
+    </button><button class="Hotspot" slot="hotspot-3" data-position="2.6277577895866617m -0.5324141872356004m -0.8634649239184842m" data-normal="0.944915697920582m 0.3263439394710737m 0.025178502611544914m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Haptic Spools</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="3.4809565133931653m -0.12411017972939137m 0.1859160607396002m" data-normal="0.6333961601002378m 0.7738257062874587m 0.0017551806145536615m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Finger Caps</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="1.8914592079569357m 0.37310124103652154m 0.6045772614973579m" data-normal="-0.2728514196682974m 0.9517864038613839m -0.14019537870275697m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">External Glove</div>
+    </button><button class="Hotspot" slot="hotspot-6" data-position="2.7178199358141044m 0.37907714751774313m 0.6192954532000224m" data-normal="0.17286483472528016m 0.8167436439266668m -0.5504975649544617m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Guide Nodes</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>

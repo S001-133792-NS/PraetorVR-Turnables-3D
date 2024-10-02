@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;Praetor-VR&gt; HMD</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+        <model-viewer src="VIEW_MJOLNIR.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="rr.png" shadow-intensity="2" camera-orbit="395.9deg 75deg 8.483m" field-of-view="26.26deg" environment-image="aircraft_workshop_01_1k.hdr" auto-rotate>
+      <button class="Hotspot" slot="hotspot-1" data-position="-0.06472964937914721m 0.37849723539554647m 1.932822494440611m" data-normal="0m 1.5569105462414922e-7m 0.9999999999999879m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Removable Front Panel</div>
+      </button><button class="Hotspot" slot="hotspot-2" data-position="0.10308907770233648m 1.2990010600758226m 0.9285633244573772m" data-normal="0.12104831532037298m 0.6052640893180896m 0.786767238476567m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Headstrap</div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="1.1447553838288238m 0.01688867120788551m -0.5684503708759131m" data-normal="0.9907063793364917m -0.10301140578404831m -0.08882297124265615m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Over-Ear Audio</div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="-0.19889885844670369m 0.26829457267705004m -1.6756711945485814m" data-normal="0.00026538883380391537m -0.11290434837274256m -0.9936058261138033m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Power Bank Slot</div>
+      </button><button class="Hotspot" slot="hotspot-6" data-position="-0.04225999367112884m -0.13000448342100412m -2.066528747924313m" data-normal="0m 0.5294580961424981m -0.8483360916695467m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Cable Link</div>
+      </button><button class="Hotspot" slot="hotspot-7" data-position="-1.142761686882613m 0.4733474314802426m 0.07616198691963394m" data-normal="-0.9999999999712368m 0.000004904372760642264m -0.000005785634106099179m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Backpiece</div>
+      </button><button class="Hotspot" slot="hotspot-8" data-position="-0.026208983612181755m 0.39326232166734065m 1.1932963058020434m" data-normal="0.0730075573283849m -0.6201586940931519m -0.7810717577237183m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">HMD View</div>
+      </button><button class="Hotspot" slot="hotspot-9" data-position="0.024075735254239304m 1.6375898726859202m -0.1631789498863705m" data-normal="0.09810453363270397m 0.9917236905087115m -0.08282283600850282m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Top Braces</div>
+      </button><button class="Hotspot" slot="hotspot-11" data-position="-0.9886919817138636m 0.5313323860728266m 1.1482079452374983m" data-normal="-1m 0m 0m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">Adjustable Strap</div>
+      </button>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.5.0/model-viewer.min.js"></script>
+  </body>
+</html>
